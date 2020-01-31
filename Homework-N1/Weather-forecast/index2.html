@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  
+    <title>City Temperature</title>
+</head>
+<body>
+       
+    <section class="App">
+        <div>
+            <div class="form">
+                <input type="text" placeholder="City" id="input">
+                <button onclick="getWeather()"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+            <p id="errorMessage">
+                <img id="im" style="display: none;" src="https://media.giphy.com/media/l0Iy29zHAcTFJ7jXO/giphy.gif" alt="">
+            </p>
+            <i style="display: none;" id="fi" class="fa fa-refresh fa-spin" style="font-size:24px"></i> 
+           
+
+        <ul class='informationList'>
+                <li>
+                    <span id="city"></span>
+                    <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                    <span>City</span>
+                </li>
+
+                <li>
+                    <span id="country"></span>
+                    <span><img src="" id="CountryId"></span>
+                    <span>Country</span>
+                </li>
+
+                <li>
+                    <img src="" alt="" id="tempIcon">
+                    <span id="temp"></span>
+                    <p id="p1"> <img src="" alt="" id="imgi"></p>
+                    <span><i class="fa fa-thermometer-empty" aria-hidden="true"></i></span>
+                    <span>Temperature</span>
+                </li>
+            </ul> 
+          
+            </div>
+    </section>
+    <script src="script.js">
+    </script>
+</body>
+</html>

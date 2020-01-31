@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+  .App {
+    width: 100%;
+    height: 100vh;
+    min-height: 650px;
+    background-color: #dedcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  .App > div {
+    width: 600px;
+    height: 600px;
+    border-radius: 15px;
+  }
+  .App .form {
+    width: 100%;
+    background-color: rgb(233, 153, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px 0px;
+  }
+  .App .form input {
+    background: none;
+    border: none;
+    background-color: #fff;
+    width: 350px;
+    padding: 10px 0px 10px 3px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 22px;
+  }
+  .App .form input::placeholder{
+    color: rgba(159, 160, 159, 0.81);
+    font-size: 20px
+  }
+  .App .form button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: #fff;
+  }
+  #errorMessage {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    color: red;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .informationList {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 200px;
+    grid-gap: 10px;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .informationList > li:last-child{
+      grid-column: 2 span
+  }
+  .informationList > li {
+    background-color: #ffffffb3;
+    box-shadow: 0px 2px 6px #948f8f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .informationList li span:first-child {
+    font-size: 40px;
+  }
+  .informationList > li span:last-child {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-family: sans-serif;
+    font-size: 17px
+  }
+  .informationList > li span:nth-last-of-type(2) {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 30px;
+  }
+  
+#tempIcon{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+#temp{
+   font-size: 30px;
+}
