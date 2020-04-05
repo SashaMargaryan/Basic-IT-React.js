@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#sec1{
+    width: 100%;
+    height: 100vh;
+    background: url(https://st4.depositphotos.com/1536490/30085/v/1600/depositphotos_300850790-stock-illustration-vector-seamless-pattern-on-the.jpg);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.but{
+    width: 70px;
+    height: 40px;
+    color: chartreuse;
+    background: darkblue;
+    
+}
+
+
+#sec1>div{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+#tiv{
+    width: 200px;
+    height: 30px;
+    border: indigo solid 5px;
+    margin-top: 20px;
+}
+
+.b{
+    width: 70px;
+    height: 70px;
+    color: indigo;
+}
+#dp{
+    width: 210px;
+    height: 30px;
+    background: white;
+    border: cornflowerblue solid 3px;
+    text-align: center;
+}
+
+#p{
+    font-size: 18px;
+    text-align: center;
+    color: green;
+}
